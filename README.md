@@ -109,7 +109,7 @@ Input and output files have two header lines followed by one `index number` pair
 | `src/main.cpp` | Argument parsing, file reading and writing, timing |
 | `lib/` | Time and memory measurement library |
 | `doc/report.pdf` | Report with the measurements, plots, and analysis |
-| `PA1拷貝.pdf` | Assignment specification |
+| `PA1.pdf` | Assignment specification |
 
 ## Acknowledgements
 

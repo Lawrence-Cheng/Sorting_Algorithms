@@ -24,6 +24,8 @@ Measured on the course's Linux server. The cases are:
 - **case2**: increasing order (best case for insertion sort)
 - **case3**: decreasing order (worst case for insertion sort)
 
+![CPU time of the five algorithms against input size on log-log axes, for random, increasing, and decreasing input](figures/runtime.png)
+
 ### CPU time (ms)
 
 | Input | IS | MS | BMS | QS | RQS |
@@ -109,6 +111,8 @@ Input and output files have two header lines followed by one `index number` pair
 | `src/main.cpp` | Argument parsing, file reading and writing, timing |
 | `lib/` | Time and memory measurement library |
 | `doc/report.pdf` | Report with the measurements, plots, and analysis |
+| `tools/plot_runtime.py` | Draws the runtime chart from the measurements in this README |
+| `figures/` | The runtime chart |
 | `PA1.pdf` | Assignment specification |
 
 ## Acknowledgements
